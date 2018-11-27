@@ -1,0 +1,23 @@
+{
+  "name": "marks5.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "firebase": "^5.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marks5/marks5.github.io.git"
+  },
+  "author": "gabriel marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marks5/marks5.github.io/issues"
+  },
+  "homepage": "https://github.com/marks5/marks5.github.io#readme"
+}
