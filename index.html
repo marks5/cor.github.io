@@ -24,7 +24,7 @@
       * Reference to Firebase database.
       * @const
       */
-      var firebase = new Firebase('https://fire-map-tutorial.firebaseio.com/');
+      firebase.initializeApp(config);
 
       /**
       * Data object to be written to Firebase.
@@ -206,7 +206,21 @@
       }
     </script>
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=visualization&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv4rjIpoA2JGYFekhcmKc0CI5x097jNDE&libraries=visualization&callback=initMap">
     </script>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBiXnr0PPYqa9zV2UQhqe5zC_1GV0aBjec",
+    authDomain: "corio-f211a.firebaseapp.com",
+    databaseURL: "https://corio-f211a.firebaseio.com",
+    projectId: "corio-f211a",
+    storageBucket: "corio-f211a.appspot.com",
+    messagingSenderId: "433735729479"
+  };
+  
+</script>
   </body>
 </html>
